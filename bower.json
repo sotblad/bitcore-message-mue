@@ -1,8 +1,8 @@
 {
-  "name": "bitcore-message-dash",
+  "name": "bitcore-message-mue",
   "main": "./bitcore-message.min.js",
   "version": "1.0.4",
-  "homepage": "https://github.com/dashpay/bitcore-message-dash",
+  "homepage": "https://github.com/sotblad/bitcore-message-mue",
   "authors": [
     "BitPay"
   ],
