@@ -1,29 +1,29 @@
-# Dash Message Verification and Signing for Bitcore-Dash
+# MonetaryUnit Message Verification and Signing for Bitcore-Mue
 
 
-[![NPM Package](https://img.shields.io/npm/v/bitcore-message-dash.svg?style=flat-square)](https://www.npmjs.org/package/bitcore-message-dash)
-[![Build Status](https://img.shields.io/travis/dashpay/bitcore-message-dash.svg?branch=master&style=flat-square)](https://travis-ci.org/dashpay/bitcore-message-dash)
-[![Coverage Status](https://img.shields.io/coveralls/bitpay/bitcore-message-dash.svg?style=flat-square)](https://coveralls.io/r/dashpay/bitcore-message-dash?branch=master)
+[![NPM Package](https://img.shields.io/npm/v/bitcore-message-mue.svg?style=flat-square)](https://www.npmjs.org/package/bitcore-message-mue)
+[![Build Status](https://img.shields.io/travis/sotblad/bitcore-message-mue.svg?branch=master&style=flat-square)](https://travis-ci.org/sotblad/bitcore-message-mue)
+[![Coverage Status](https://img.shields.io/coveralls/bitpay/bitcore-message-mue.svg?style=flat-square)](https://coveralls.io/r/sotblad/bitcore-message-mue?branch=master)
 
-bitcore-message-dash adds support for verifying and signing dash messages in [Node.js](http://nodejs.org/) and web browsers.
+bitcore-message-mue adds support for verifying and signing monetaryunit messages in [Node.js](http://nodejs.org/) and web browsers.
 
-See [the main bitcore-dash repo](https://github.com/dashpay/bitcore-dash) for more information.
+See [the main muecore repo](https://github.com/sotblad/muecore) for more information.
 
 ## Getting Started
 
 ```sh
-npm install bitcore-message-dash
+npm install bitcore-message-mue
 ```
 
 ```sh
-bower install bitcore-message-dash
+bower install bitcore-message-mue
 ```
 
 To sign a message:
 
 ```javascript
-var bitcore = require('bitcore-lib-dash');
-var Message = require('bitcore-message-dash');
+var bitcore = require('bitcore-lib-mue');
+var Message = require('bitcore-message-mue');
 
 var privateKey = bitcore.PrivateKey.fromWIF('cPBn5A4ikZvBTQ8D7NnvHZYCAxzDZ5Z2TSGW2LkyPiLxqYaJPBW4');
 var signature = Message('hello, world').sign(privateKey);
@@ -39,7 +39,7 @@ var verified = Message('hello, world').verify(address, signature);
 
 ## Contributing
 
-See [CONTRIBUTING.md](https://github.com/dashpay/bitcore-dash/blob/master/CONTRIBUTING.md) on the main bitcore-dash repo for information about how to contribute.
+See [CONTRIBUTING.md](https://github.com/sotblad/muecore/blob/master/CONTRIBUTING.md) on the main muecore repo for information about how to contribute.
 
 ## License
 
