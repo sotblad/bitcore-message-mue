@@ -1,6 +1,6 @@
 {
   "name": "bitcore-message-mue",
-  "version": "1.0.9",
+  "version": "sotblad/bitcore-message-mue",
   "description": "MonetaryUnit Messages for Muecore",
   "author": "BitPay <dev@bitpay.com>",
   "main": "index.js",
